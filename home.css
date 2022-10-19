@@ -1,0 +1,341 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+  6. Page Styles
+======================================== */
+
+
+/* universel styles */
+
+html, body {
+  padding: 0;
+  height: 100%;
+  margin: 0 auto ;
+  width: 100%;
+}
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=The+Nautigal&display=swap');
+
+
+
+
+
+/* header */
+
+header {
+  background-image: url('./fond\ 1&&.jpg');
+  width: 100%;
+  text-align: center;
+  margin-top:0;  
+  height: 550px;
+}
+
+
+main {
+  text-align: center;  
+}
+
+h1 {
+  font-family: 'Arizonia', cursive;
+  text-align: center; 
+  font-size: 110px;
+  color: #b0a9a3;
+  padding: 20px 0;
+  margin: 130px 50px 50px 250px; 
+}
+
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    color: rgb(95, 89, 89);
+    font-weight: 200;
+    margin-top: 0;
+}
+
+
+
+
+
+h4 {
+    font-family:'Montserrat Alternates', sans-serif;
+    font-size: 21px;
+    color: rgb(116,108,105);
+    text-align: left;
+  }
+
+h5 {
+  font-family:'Raleway', sans-serif;
+  font-size: 18px;
+  color: rgb(116,108,105);
+  margin-top: 13px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+h6 {
+    font-family:'Open Sans', sans-serif;
+    font-size: 19px;
+    color: rgb(116,108,105);
+    text-align: left;    
+    margin:0;
+}
+
+p {
+    font-family:'Open Sans', sans-serif;
+    color: rgba(78, 70, 67, 0.925);
+    font-size: 18px;
+    text-align: left; 
+    margin-bottom: 18px;
+}
+
+a{
+    font-family:'Open Sans', sans-serif;
+    text-align: left; 
+}
+
+
+/* nav */
+
+nav {
+  margin: 0;
+  padding: 20px auto;
+}
+
+
+nav li {
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  list-style-type:none;
+  font-weight: 590;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+nav li a{
+  text-decoration: none;
+  color: rgb(116, 107, 107); 
+}
+
+.nav-top .hom{
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  margin-top: 0;
+
+}
+
+
+/* section 1 */
+
+.section1{
+  background-color: #fff;
+
+}
+
+.section1 p,
+.section4 p{
+  font-family: 'Great Vibes', cursive;
+  font-size: 43px;
+  color: rgb(95, 89, 89);
+  font-weight: 300;
+  margin-top: 0;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  letter-spacing: 5px;
+}
+
+
+/* section 2   
+
+background-color: rgb(239,231,228); beige
+
+*/
+
+
+.section2{
+  background-color: rgb(241,247,240);
+  height: 500px;
+  display: flex;
+}
+
+.dedicace_left{
+  background-image: url("photo\ mama.png");
+  width: 400px;
+  height: 450px;
+  position: relative;
+  left: 200px;
+  top: 80px;
+}
+
+.dedicace_right{
+  position: relative;
+  left: 250px;
+  top : 90px;
+  width: 45%;
+
+}
+
+.dedicace_right h2{
+  text-align: left;
+  margin-left: 40px;
+}
+
+/* section 3 */
+
+.section3{
+  margin-top: 100px;
+  position: relative;
+  
+}
+.section3 h2{
+  margin-bottom: 0;
+  font-size: 80px;
+  
+}
+
+.section3 img{
+  height: 500px;
+
+}
+
+.button{
+  position: absolute;
+  height: 50px;
+  width: 100px;
+}
+
+.button:hover{
+  cursor: pointer; 
+  background-color: rgb(166,200,162);
+  border-color: rgb(116, 107, 107);
+}
+
+.but_mama{
+  top: 180px;
+  left: 550px;
+}
+
+.but_mahrez{
+  top: 180px;
+  left: 680px;
+}
+
+.but_radia{
+  top: 265px;
+  left: 520px;
+}
+
+.but_hani{
+  top: 265px;
+  left: 710px;
+}
+
+.but_nazim{
+  top: 350px;
+  left: 480px;
+}
+
+.but_hana{
+  top: 350px;
+  left: 750px;
+}
+
+/* section4 */
+
+.section4{
+  background-image: url("fond\ 2.jpg");
+  height: 345px;
+  width: 100%;
+  position: relative;
+}
+
+.section4 p{
+  position:absolute;
+  top:40px;
+  left: 330px;
+}
+
+.section4 h2{
+
+  font-size: 100px;
+  position:relative;
+  top:40px;
+}
+/* section5 */
+
+.section5 h2 {
+  margin-top: 50px ;
+  margin-bottom: 0;
+  font-size: 80px;
+}
+.boxes{
+  display: grid ;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  margin: 15px auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.box{
+  border: 2px solid rgb(141, 134, 134);
+  width: 270px;
+  height: 300px;
+  margin: 40px auto; 
+  background-color: rgb(248,243,241);
+  text-decoration: none;
+}
+
+.box img{
+  position: relative;
+  height: 200px;
+  top:0px;
+  left:10px;
+  margin-top: 0;
+
+  display: block;
+  
+}
+
+.box a{
+  text-decoration: none;
+}
+
+.box h3{
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(95, 89, 89);
+  font-weight: 500;
+  letter-spacing: 1px;
+  top: 2px;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.boxes a:hover{
+  background-color: rgb(229,239,228);
+
+}

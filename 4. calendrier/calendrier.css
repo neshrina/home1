@@ -1,0 +1,190 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+  6. Page Styles
+======================================== */
+
+
+/* universel styles */
+
+html, body {
+  padding: 0;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+
+
+
+/* header */
+
+header {
+  background-color: #f3eee8;
+  width: 100%;
+  text-align: center;
+  margin-top:0;  
+}
+
+
+main {
+  padding: 20px 15px;
+  margin-bottom: 60px;
+  text-align: center;  
+}
+
+
+h1 {
+  background-color: rgb(244, 235, 230) ;
+  font-family:'Montserrat Alternates', sans-serif;
+  text-align: center;
+  letter-spacing: 12px;
+  font-size: 45px;
+  color: #665d56;
+  padding: 20px 0;
+  margin:10px 40px; 
+}
+
+
+h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: rgb(95, 89, 89);
+    line-height: 70px;
+    margin-top: 0;
+}
+
+
+
+h3 {
+  background-color: #f3eee8;
+  padding: 15px 20px;
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-size: 25px;
+  color: rgb(116,108,105);
+  text-align: center;  
+}
+
+h5 {
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  color: rgb(116,108,105);
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;  
+}
+
+p {
+    font-family:'Nanum Gothic', sans-serif;
+    color: rgba(78, 70, 67, 0.925);
+    font-size: 10px;
+    text-align: left;
+    padding: 3px 3px;
+      
+}
+
+
+
+/* nav */
+
+nav {
+  margin: 0;
+  padding: 20px auto;
+}
+
+
+nav li {
+  font-family:'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  list-style-type:none;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+nav li a{
+  text-decoration: none;
+  color: rgb(116, 107, 107); 
+}
+
+
+
+
+/* calendrier */
+
+.calendrier {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr;
+  margin: 50px 50px 50px 50px;
+}
+
+.mois {
+  margin: 15px 15px;
+  padding: 0 20px 5px 20px; 
+}
+
+.jours {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px 1px;
+  margin-top: 15px;
+  gap: 5px 5px;  
+}
+
+.case {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  column-gap: 10px;
+  background-color: rgb(187, 187, 190);
+}
+
+.case1 {
+  background-color: rgb(230, 184, 132);
+}
+
+.case2 {
+  background-color: rgba(160, 226, 219, 0.842);
+}
+
+.case3{
+  background-color: rgba(99, 138, 99, 0.671);
+}
+
+.case4{
+  background-color: rgba(18, 19, 18, 0.596);
+  color:#fff;
+}
+
+.case4 a{
+  color:#fff;
+}
+
+p a,
+h3 a {
+  text-decoration: none;
+  color:rgba(78, 70, 67, 0.925);
+  text-align: center;
+  margin-left: 0;
+}
+
+a:hover{
+  color:rgb(233, 23, 23);
+  font-weight: bold;
+  
+}
+
